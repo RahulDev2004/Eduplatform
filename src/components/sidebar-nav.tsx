@@ -28,7 +28,7 @@ export function SidebarNav({ className, items, ...props }: SidebarNavProps) {
             props.currentId === item.id
               ? "bg-muted hover:bg-muted"
               : "hover:bg-transparent hover:underline",
-            "justify-start"
+            "justify-start overflow-hidden text-ellipsis cursor-pointer"
           )}
         >
           {item.title}

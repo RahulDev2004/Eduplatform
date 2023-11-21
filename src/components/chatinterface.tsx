@@ -25,17 +25,7 @@ export function ChatInterface() {
 
   return (
     <div style={{ display: "flex", width: "100vw", height: "100vh", padding: "20px" }}>
-      {/* <div style={{ width: "25%", backgroundColor: "white",padding: "10px", border: "1px solid black" }}>
-  <input type="file" className="mb-4 border-black border-1" onChange={handleFileChange} />
-    <ul>
-      {dummyData.map((data, index) => (
-        <li className="flex items-center" key={index}>
-          {data.name}
-        </li>
-      ))}
-    </ul>
-   
-  </div> */}
+
       <div style={{ position: "relative", width: "85%", marginLeft: "15px" }}>
         <MainContainer>
           <ChatContainer>
